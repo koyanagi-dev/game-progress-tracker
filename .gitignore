@@ -1,0 +1,15 @@
+# 依存ファイル
+node_modules/
+
+# ビルド成果物（今後 Vite の build を使うとき用）
+dist/
+
+# ローカル環境の設定など
+.env
+.env.local
+
+# テスト/カバレッジ関連（将来使うかもしれないので一応）
+coverage/
+
+# macOS 特有のファイル
+.DS_Store

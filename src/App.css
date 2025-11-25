@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #1b1b2f; /* ゲーム風の暗め背景 */
+  color: #fff;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #2a2a3d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #000;
+}
+
+.app-header h1 {
+  text-align: center;
+  color: #ffcc00; /* タイトルに目立つ色 */
+}
+
+.task-input {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.task-input button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1e90ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #3a3a5a;
+  border-radius: 5px;
+}
+
+.task-status {
+  padding: 5px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #000;
+}
+
+.task-text {
+  flex: 1;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.delete-btn {
+  background-color: #ff4500;
+  color: #fff;
+}
